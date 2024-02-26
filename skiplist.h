@@ -5,7 +5,7 @@
 #include <mutex>
 #include <fstream>
 
-#define STORE_FILE "store/dumpFile"
+#define STORE_FILE "./store/dumpFile.txt"
 
 std::mutex mtx;     // mutex for critical section
 std::string delimiter = ":";
